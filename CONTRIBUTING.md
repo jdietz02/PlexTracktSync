@@ -43,10 +43,14 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 ## Install code from Pull request
 
-Replace `pipx-installable` with a version
+Replace `838` with a pull request you intend to install
 
 ```
-pipx install --suffix=@pr 'git+https://github.com/Taxel/PlexTraktSync@pipx-installable'
+$ pipx install --suffix=@pr 'git+https://github.com/Taxel/PlexTraktSync@refs/pull/838/head'
+  installed package PlexTraktSync 0.18.0.dev0 (PlexTraktSync@pr), installed using Python 3.10.2
+  These apps are now globally available
+    - plextraktsync@pr
+done! ✨ 🌟 ✨
 ```
 
 ## Checking out code
