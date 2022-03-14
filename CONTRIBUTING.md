@@ -43,7 +43,11 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 ## Install code from Pull request
 
-TBD
+Replace `pipx-installable` with a version
+
+```
+pipx install --suffix=@pr 'git+https://github.com/Taxel/PlexTraktSync@pipx-installable'
+```
 
 ## Checking out code
 
