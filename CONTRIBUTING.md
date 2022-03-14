@@ -41,6 +41,10 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 [issues]: https://github.com/Taxel/PlexTraktSync/issues
 [opening a new issue]: https://github.com/Taxel/PlexTraktSync/issues/new
 
+## Install code from Pull request
+
+TBD
+
 ## Checking out code
 
 If you checkout a specific version, this can be done in one of two ways:
